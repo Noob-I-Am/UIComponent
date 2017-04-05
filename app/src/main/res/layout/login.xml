@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout">
+
+
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:background="#FFA500"
+            android:text="ANDROID APP"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:typeface="sans"
+            android:textStyle="bold"/>
+    <EditText
+            android:id="@+id/Username"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:scrollHorizontally="true"
+            android:autoText="false"
+            android:capitalize="none"
+            android:gravity="fill_horizontal"
+            android:hint="username" />
+    <EditText
+            android:id="@+id/Password"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:scrollHorizontally="true"
+            android:autoText="false"
+            android:capitalize="none"
+            android:gravity="fill_horizontal"
+            android:password="true"
+            android:hint="password"
+        />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="181dp"
+            android:layout_height="60dp"
+            android:text="Cancel"
+            android:gravity="center"
+            android:layout_weight="0"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Login"
+            android:layout_weight="1.0"
+            android:gravity="center"/>
+        </LinearLayout>
+</LinearLayout>
